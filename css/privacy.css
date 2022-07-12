@@ -34,3 +34,9 @@ body {
         width: 100%;
     }
 }
+
+@media (max-width: 376px) {
+    .footer-links {
+        font-size: 10px;
+    }
+}

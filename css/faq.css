@@ -20,12 +20,16 @@ body {
   background-color: #FFEDDC;
   transition: all ease 0.5s;
 }
-.bg-color:hover{
+/* .bg-color:hover{
   background-color:  #FAC086 ;
-}
+} */
 
 .nav-link:hover p{
-  border-bottom: 5px solid black;
+  border-bottom: 3px solid black;
+}
+
+.active {
+  border-bottom: 3px solid black;
 }
 
 /* MAIN SECTION */
@@ -108,6 +112,13 @@ footer .bg-hire {
 .card-holder2{
   display: none;
 }
+.active {
+  border: none;
+}
+
+.nav-link:hover p {
+  border-bottom: none;
+}
 
 }
 
@@ -134,12 +145,22 @@ footer .bg-hire {
 }
 }
 
-@media only screen and (max-width:375px){
+@media (max-width: 426px) {
+  #sec-five .input-group input {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width:376px){
   .form form input{
     width: 65%;
       }
   .form form .btn{
     width: 18%;
       }
+  
+    .footer-links {
+      font-size: 12px;
+    }
       
 }

@@ -17,7 +17,7 @@
       rgba(0, 0, 0, 0),
       rgba(82, 43, 5, 0.46)
     ),
-    url("../img/sign-up images/login-image.png");
+    url("../img/sign-up images/login-image.png"); 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -87,7 +87,6 @@
   .form {
     width: 100vw;
     min-width: 80vw;
-    
   }
   .container-mobile {
     width: 80%;
