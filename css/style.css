@@ -17,7 +17,7 @@
 }
 
 .bg-color {
-  background-color: #FAC086;
+  background-color: #FFEDDC;
 }
 
 #sec-one {
@@ -112,6 +112,22 @@
   width: 49%;
 }
 
+.active {
+  border-bottom: 3px solid black;
+}
+
+@media (max-width: 376px) {
+  .footer-links {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 426px) {
+  #sec-five .input-group input {
+    width: 100%;
+  }
+}
+
 @media all and (max-width: 450px) {
   #sec-one {
     min-height: 30vh;
@@ -181,5 +197,9 @@
 
   .centralize {
     text-align: center;
+  }
+
+  .active {
+    border: none;
   }
 }
