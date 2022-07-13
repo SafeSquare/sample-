@@ -113,6 +113,9 @@
   .text-log {
     font-size: 24px;
   }
+  .width{
+    width:82% !important;
+  }
 
   .label-size {
     font-size: 15px !important;
@@ -132,3 +135,9 @@
     min-width: 80vw;
   }
 }
+/* Tablet view */
+  @media (max-width: 769px) {
+    .width{
+      width:85% !important;
+    }
+  }
