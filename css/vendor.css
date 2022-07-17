@@ -46,7 +46,7 @@ input{
 }
 
 .marginStyle{
-  margin-left: 1000px;
+  display: none;
 }
 
 .top-50{
@@ -55,7 +55,6 @@ input{
 
 .form-body{
   width: 65%;
-  padding-top: 60px;
 }
 
 .form-div{
@@ -81,12 +80,6 @@ input{
   padding: 4px 30px 4px 30px;
 }
 
-@media screen and (max-width: 769px) {
-  .marginStyle{
-    margin-left: 400px;
-  }
-}
-
 @media screen and (max-width: 426px) {
   .image{
       width: 100%;
@@ -97,6 +90,10 @@ input{
 }
 .marginStyle{
   margin-left: 5px;
+  display: block;
+}
+.logo-right {
+  display: none;
 }
   .d-flex{
     flex-direction: column !important;

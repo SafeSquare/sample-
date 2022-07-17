@@ -46,12 +46,11 @@ p{
 }
 
 .marginStyle{
-  margin-left: 1000px;
+  display: none;
 }
 
 .form-body{
   width: 65%;
-  padding-top: 60px;
 }
 
 .form-div{
@@ -82,11 +81,7 @@ p{
   padding: 4px 30px 4px 30px;
 }
 
-@media screen and (max-width: 769px) {
-  .marginStyle{
-    margin-left: 400px;
-  }
-}
+
 
 @media screen and (max-width: 426px) {
   .image{
@@ -98,6 +93,10 @@ p{
   }
   .marginStyle{
     margin-left: 5px;
+    display: block;
+  }
+  .logo-right {
+    display: none;
   }
   .d-flex{
     flex-direction: column !important;

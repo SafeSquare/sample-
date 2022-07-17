@@ -24,9 +24,9 @@ body {
   background-color:  #FAC086 ;
 } */
 
-.nav-link:hover p{
+/* .nav-link:hover p{
   border-bottom: 3px solid black;
-}
+} */
 
 .active {
   border-bottom: 3px solid black;

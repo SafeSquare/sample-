@@ -63,6 +63,16 @@ body {
   #sec-five .input-group input {
     width: 100%;
   }
+
+  .smaller-background {
+    background-color: #FDE6CF;
+    max-width: 94.5%;
+    margin: 0 auto;
+  }
+
+  .smaller-background h3, .smaller-background p {
+    text-align: center;
+  }
 }
 
 @media (max-width: 376px) {
@@ -76,5 +86,7 @@ body {
   .footer-links {
     font-size: 12px;
   }
-  
+  .smaller-background {
+    max-width: 93.5%;
+  }
 }
