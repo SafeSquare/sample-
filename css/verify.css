@@ -91,6 +91,14 @@ p{
   .image h3{
     font-size: 30px;
   }
+  .form-body{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .form-texts{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
   .marginStyle{
     margin-left: 5px;
     display: block;
@@ -108,13 +116,13 @@ p{
     display: none;
   }
   .wineImg{
-    margin-left: 10px;
+    margin-left: 23px;
     width: 100%;
     background-image: url("../img/vendor\ img/wine.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 90vh;
+    min-height: 92vh;
     max-width: 90vw;
     object-fit: cover;
   }

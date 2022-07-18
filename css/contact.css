@@ -48,8 +48,9 @@ min-height: 350px;
   border-radius: 30px !important ;
 
 }
-.icony img{
-margin: 10px;
+.icony{
+margin-bottom: 30px;
+margin-right: 30px;
 }
 .orange{
   background-color: #F5820E;
@@ -119,7 +120,7 @@ margin: 10px;
   width:100px;
   box-shadow: 2px 0px 0px grey;
   position: absolute;
-  top: 1020px;
+  top: 1005px;
   right: 109px;
   
 }
@@ -165,7 +166,7 @@ footer .bg-hire {
 }
 @media all and (max-width:912px){
   ::-webkit-file-upload-button{
-    top: 940px;
+    top: 930px;
    left:710px;
    
  } 
@@ -175,7 +176,7 @@ footer .bg-hire {
 }
 @media all and (max-width:820px){
   ::-webkit-file-upload-button{
-    top: 940px;
+    top: 920px;
    left:660px;
    
  } 
@@ -202,7 +203,7 @@ footer .bg-hire {
   border-bottom: none;
 }
 ::-webkit-file-upload-button{
-   top: 1000px;
+   top: 970px;
   left: 640px;
   
 }
@@ -231,18 +232,24 @@ footer .bg-hire {
   width: 100%;
 }
 ::-webkit-file-upload-button{
-  top: 1350px;
+  top: 1370px;
  left: 420px;
  
 }
 }
 
 @media (max-width: 426px) {
+  .icony{
+    margin-bottom: 10px;
+    margin-right: 10px;
+    }
+    
+    
   #sec-five .input-group input {
     width: 100%;
   }
   ::-webkit-file-upload-button{
-    top: 1340px;
+    top: 1370px;
    left: 290px;
    
  }
@@ -261,7 +268,7 @@ footer .bg-hire {
     }
     ::-webkit-file-upload-button{
 
-     left: 220px;
+     left: 250px;
      
    }     
 }
@@ -271,12 +278,24 @@ footer .bg-hire {
     overflow-x: hidden !important;
   }
   ::-webkit-file-upload-button{
-    top: 1340px;
+    top: 1360px;
    left: 150px;
  }
  
  #choose_file{
   width:250px;   
+}
+
+.card-body h3{
+  font-size: 17px;
+}
+.card-body img{
+  width: 25px;
+  height: 20px;
+  margin-right: 10px;
+}
+.card-body p{
+  font-size: 16px;
 }  
   
 }
