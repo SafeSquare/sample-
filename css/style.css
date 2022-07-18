@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Playfair Display;
+}
+
+.actived {
+  border-bottom: 3px solid black;
+  transition: all 3s ease-in-out;
 }
 
 .mobile-slide {
@@ -35,11 +41,19 @@
 .bg-hire {
   background-color: #F5820E;
   padding: 0.8rem 4rem;
+  transition: all 1s ease-in-out ;
+}
+
+.bg-hire:hover{
+  transform: scale(1.2);
+  background-color: #b0661b;
 }
 
 .btn-social{
   display: none ;
+  margin-top: 50%;
 }
+
 .btn-wrapper{
   display: flex;
 }
@@ -48,9 +62,31 @@
   padding: 0.8rem 4rem;
 }
 
+.bg-hireee {
+  width: 200px;
+  padding: 0.8rem 1.5rem;
+  font-size: smaller;
+  transition: all 1s ease-in-out ;
+}
+
 .bg-hires {
   color: #F5820E;
   padding: 0.8rem 4rem;
+  transition: all 1s ease-in-out ;
+}
+
+.bg-hireee:hover,
+.bg-hires:hover {
+background-color: rgba(0, 0, 0, 0.5);
+transform: scale(1.2);
+}
+
+img{
+  transition: all 1s ease-in-out ;
+}
+
+img:hover{
+  transform: scale(1.2);
 }
 
 .carousel-btn {
@@ -112,21 +148,34 @@
   width: 49%;
 }
 
-.active {
-  border-bottom: 3px solid black;
-}
-
-@media (max-width: 376px) {
-  .footer-links {
-    font-size: 12px;
-  }
-}
-
-@media (max-width: 426px) {
-  #sec-five .input-group input {
+@media all and (max-width: 769px) {
+  .card-holder {
     width: 100%;
   }
+
+  .card-holder2 {
+    display: none;
+  }
+
+  .cj {
+    justify-content: center;
+  }
+
+  .centralize {
+    text-align: center;
+  }
+
+  .active {
+    border: none;
+  }
+
+  .btn-font{
+    font-size: 10px ;
+  }
+
 }
+
+
 
 @media all and (max-width: 450px) {
   #sec-one {
@@ -178,28 +227,31 @@
   .btn-social{
     display: flex;
   }
+
+  .anchor-imgs{
+    display: none;
+  }
+
+  #sec-five .input-group input {
+    width: 100%;
+  }
   
 }
 
 
-@media all and (max-width: 769px) {
-  .card-holder {
-    width: 100%;
-  }
 
-  .card-holder2 {
-    display: none;
-  }
 
-  .cj {
-    justify-content: center;
-  }
 
-  .centralize {
-    text-align: center;
+@media (max-width: 376px) {
+  .xs-screen1 {
+    width: 50%;
   }
-
-  .active {
-    border: none;
+  .xs-screen2 {
+      width: 100%;
+      margin: 0 auto;
+    }
+  .footer-links {
+    font-size: 12px;
   }
+  
 }
