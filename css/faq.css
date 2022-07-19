@@ -11,6 +11,12 @@ body {
   overflow-x: hidden;
 }
 
+.bg-signup {
+  background: #F5820E;
+  border-radius: 8px;
+}
+
+
 /* HEADER */
 .site-logo {
   font-family: sans-serif;
@@ -30,6 +36,10 @@ body {
 
 .active {
   border-bottom: 3px solid black;
+}
+
+.new-family {
+  font-family: 'Source Sans Pro', sans-serif !important;
 }
 
 /* MAIN SECTION */
@@ -120,6 +130,12 @@ footer .bg-hire {
   border-bottom: none;
 }
 
+.bg-signup {
+  width: 70px;
+  text-align: center;
+ }
+
+
 }
 
 @media all and (max-width: 450px) {
@@ -164,3 +180,7 @@ footer .bg-hire {
     }
       
 }
+
+
+
+

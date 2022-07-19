@@ -11,6 +11,11 @@ body {
   font-family: Playfair Display;
 }
 
+.bg-signup {
+  background: #F5820E;
+  border-radius: 8px;
+}
+
 .site-logo {
   font-family: sans-serif;
 }
@@ -54,11 +59,17 @@ body {
     border: none;
   }
 
-  .btn-font{
-    font-size: 10px ;
+  .btn-font {
+    font-size: 10px;
+  }
+
+
+  .bg-signup {
+    width: 70px;
+    text-align: center;
   }
 }
-  
+
 
 @media (max-width: 426px) {
   #sec-five .input-group input {
@@ -70,12 +81,14 @@ body {
   .xs-screen1 {
     width: 50%;
   }
+
   .xs-screen2 {
-      width: 100%;
-      margin: 0 auto;
-    }
+    width: 100%;
+    margin: 0 auto;
+  }
+
   .footer-links {
     font-size: 12px;
   }
-  
+
 }

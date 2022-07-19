@@ -8,6 +8,11 @@
   font-family: Playfair Display;
 }
 
+.bg-signup {
+  background: #F5820E;
+  border-radius: 8px;
+}
+
 .mobile-slide {
   display: none;
 }
@@ -116,6 +121,11 @@
   .meet-img img {
     width: 95%;
    }
+
+   .bg-signup {
+    width: 70px;
+    text-align: center;
+   }
  }
 
 
@@ -142,3 +152,5 @@
     font-size: 12px;
   }
  }
+
+

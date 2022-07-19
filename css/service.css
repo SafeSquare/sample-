@@ -11,6 +11,11 @@ body {
   font-family: Playfair Display;
 }
 
+.bg-signup {
+  background: #F5820E;
+  border-radius: 8px;
+}
+
 .site-logo {
   font-family: sans-serif;
 }
@@ -41,6 +46,14 @@ body {
   background-color: #FDE6CF !important;
 }
 
+#short-note p {
+  font-size: 1.25rem;
+}
+
+#short-note h2 {
+  font-size: 3rem;
+}
+
 .new-family {
   font-family: 'Source Sans Pro', sans-serif !important;
 }
@@ -56,6 +69,11 @@ body {
   .smaller-text  {
     font-size: 14px;
   }
+
+  .bg-signup {
+    width: 70px;
+    text-align: center;
+  }
 }
   
 
@@ -63,6 +81,14 @@ body {
   #sec-five .input-group input {
     width: 100%;
   }
+
+    #short-note p {
+      font-size: 1rem;
+    }
+
+    #short-note h2 {
+      font-size: 2.5rem;
+    }
 
   .smaller-background {
     background-color: #FDE6CF;
@@ -90,3 +116,4 @@ body {
     max-width: 93.5%;
   }
 }
+

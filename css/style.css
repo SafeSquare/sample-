@@ -5,12 +5,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body{
   font-family: Playfair Display;
+}
+
+.new-family {
+  font-family: 'Source Sans Pro', sans-serif !important;
 }
 
 .actived {
   border-bottom: 3px solid black;
-  transition: all 3s ease-in-out;
 }
 
 .mobile-slide {
@@ -41,12 +47,11 @@
 .bg-hire {
   background-color: #F5820E;
   padding: 0.8rem 4rem;
-  transition: all 1s ease-in-out ;
 }
 
-.bg-hire:hover{
-  transform: scale(1.2);
-  background-color: #b0661b;
+.bg-signup {
+  background: #F5820E;
+  border-radius: 8px;
 }
 
 .btn-social{
@@ -66,27 +71,11 @@
   width: 200px;
   padding: 0.8rem 1.5rem;
   font-size: smaller;
-  transition: all 1s ease-in-out ;
 }
 
 .bg-hires {
   color: #F5820E;
   padding: 0.8rem 4rem;
-  transition: all 1s ease-in-out ;
-}
-
-.bg-hireee:hover,
-.bg-hires:hover {
-background-color: rgba(0, 0, 0, 0.5);
-transform: scale(1.2);
-}
-
-img{
-  transition: all 1s ease-in-out ;
-}
-
-img:hover{
-  transform: scale(1.2);
 }
 
 .carousel-btn {
@@ -115,6 +104,11 @@ img:hover{
   text-align: center;
   overflow: hidden;
   padding: 2rem 0;
+}
+
+#sec-one__container p {
+  width: 40%;
+  margin: 0 auto;
 }
 
 
@@ -157,6 +151,11 @@ img:hover{
     display: none;
   }
 
+  #sec-one__container p {
+    width: 100%;
+    margin: 0 auto;
+  }
+
   .cj {
     justify-content: center;
   }
@@ -165,7 +164,7 @@ img:hover{
     text-align: center;
   }
 
-  .active {
+  .actived {
     border: none;
   }
 
@@ -173,11 +172,21 @@ img:hover{
     font-size: 10px ;
   }
 
+  .bg-signup {
+   width: 70px;
+   text-align: center;
+  }
+
 }
+  
 
 
 
 @media all and (max-width: 450px) {
+  #sec-five .input-group input {
+      width: 100%;
+    }
+
   #sec-one {
     min-height: 30vh;
   }
@@ -186,7 +195,8 @@ img:hover{
     width: 100%;
   }
 
-  .card-holder2 {
+  .card-holder2,
+  .card-holder3  {
     display: none;
   }
 
@@ -231,10 +241,6 @@ img:hover{
   .anchor-imgs{
     display: none;
   }
-
-  #sec-five .input-group input {
-    width: 100%;
-  }
   
 }
 
@@ -255,3 +261,16 @@ img:hover{
   }
   
 }
+
+
+
+
+/* .bg-signup {
+  background: #F5820E;
+  border-radius: 8px;
+}
+
+.bg-signup {
+  width: 70px;
+  text-align: center;
+ } */
